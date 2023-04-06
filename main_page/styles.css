@@ -75,6 +75,16 @@ strong {
   padding-left: 21px;
   padding-right: 200px;
 }
+.my-projects-text {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+  color: rgb(62, 62, 62);
+  text-align: left;
+  padding-left: 21px;
+  padding-right: 200px;
+  padding-top: 0px;
+}
 
 #contact-text {
   font-family: "Hanken Grotesk", sans-serif;
@@ -236,29 +246,7 @@ hr {
   margin: 0% 0% 0% 2%;
 }
 
-/*PROJECT BOXES*/
-.box {
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 0px 18px 18px 18px;
-  width: 200px;
-  box-shadow: 0 2rem 5rem -1rem rgba(0, 16, 36, 9%);
-  border: 1.8px solid rgb(62, 62, 62);
-  padding: 0px 20px 0px;
-  margin: 20px;
-  font-family: "Hanken Grotesk", sans-serif;
-  font-weight: 200;
-}
-
-.contact {
-  width: 400px;
-  padding: 0px;
-  margin: 20px;
-  font-family: "Hanken Grotesk", sans-serif;
-  font-weight: 200;
-}
-
 /* FADE-IN ANIMATION*/
-
 .fade-in7 {
   animation: fadeIn ease 7s;
   -webkit-animation: fadeIn ease 7s;
@@ -328,6 +316,27 @@ hr {
   }
 }
 
+/*PROJECT BOXES*/
+.box {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 0px 18px 18px 18px;
+  width: 200px;
+  box-shadow: 0 2rem 5rem -1rem rgba(0, 16, 36, 9%);
+  border: 1.8px solid rgb(62, 62, 62);
+  padding: 0px 20px 0px;
+  margin: 20px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 200;
+}
+
+.contact {
+  width: 400px;
+  padding: 0px;
+  margin: 20px;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 200;
+}
+
 /*BUTTONS*/
 .btn-footer {
   font-size: 16px;
@@ -366,6 +375,10 @@ hr {
   padding: 20px 20px;
   text-decoration: none;
   margin-left: 20px;
+}
+.btn-games:hover {
+  background-color: rgb(207, 3, 207);
+  color: white;
 }
 
 /*FOOTER*/

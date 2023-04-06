@@ -1,0 +1,171 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 1.2rem;
+}
+p {
+  color: #777;
+}
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+.top-container {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/*Navigation Bar*/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  color: white;
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/*BUTTONS*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.button-back {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  background-color: #ff4c68;
+  display: inline-block;
+
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: #8edad3;
+}
+.button-back:hover {
+  color: grey;
+}
+
+/*TITLE IMAGE*/
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*CAROUSEL SECTION*/
+
+#testimonials {
+  background-color: #ff4c68;
+  color: white;
+}
+.testimonial-image {
+  width: 15%;
+  border-radius: 50%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+}
+.press-logo {
+  width: 10%;
+  margin: 20px;
+}
+
+/*PRICING SECTION */
+
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.card-header {
+  background-color: #ff4c68;
+}
+
+/*call to action SECTION */
+
+#cta {
+  padding: 30px;
+  background-color: #ff4c68;
+  color: white;
+}
+.cta-heading {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+#footer {
+  padding: 50px 20px 10px;
+  background-color: white;
+}
+
+.social-icon {
+  margin: 10px 10px;
+}
